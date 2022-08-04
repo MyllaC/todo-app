@@ -1,0 +1,58 @@
+.NoTasks {
+  margin-top: 4rem;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header {
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 1rem;
+}
+
+.Header div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.Header span {
+  color: var(--gray-100);
+  background-color: var(--gray-300);
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-inline: 0.4rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+
+.CreatedTask {
+  color: var(--purple);
+}
+
+.ConcludedTask {
+  color: var(--blue);
+}
+
+.Main {
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  color: var(--gray-300);
+  gap: 1rem;
+  border-top: 1px solid var(--gray-300);
+  border-radius: 6px;
+}
+
+.Main img {
+  width: 5rem;
+}
